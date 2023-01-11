@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'counter_bloc.dart';
+import 'counter_bloc2.dart';
 import 'content_provider.dart';
 
 class Counter extends StatefulWidget {
@@ -14,6 +15,7 @@ class _CounterState extends State<Counter> {
   void dispose() {
     // TODO: implement dispose
     bloc.dispose();
+    bloc2.dispose();
     super.dispose();
   }
 
