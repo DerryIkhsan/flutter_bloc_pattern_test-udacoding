@@ -1,6 +1,6 @@
-# udacoding_bloc_patern
+# bloc_patern
 
-A new Flutter project.
+A new Flutter project. Flutter version 1.20.3
 
 ## Getting Started
 
